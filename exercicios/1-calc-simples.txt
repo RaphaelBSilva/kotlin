@@ -3,7 +3,7 @@ fun main() {
     
     var Val1:Float? = null //valor 1
     var Val2:Float? = 3F  //valor 2
-    var Oper:String = "+" //operaÁıes aritimeticas simples: + , - ,* ou /
+    var Oper:String = "+" //opera√ß√µes aritimeticas simples: + , - ,* ou /
    
  
  if (Val1 != null && Val2 != null) {
@@ -12,14 +12,10 @@ fun main() {
         "-" -> println(Val1.minus(Val2))
         "*" -> println(Val1.times(Val2))
         "/" -> println(Val1.div(Val2))
-  else -> println("OperaÁ„o n„o suportada")  
+        else -> println("Opera√ß√£o n√£o suportada")  
    }
  }
     
  else
-    println("O resultado È nulo!")
-    
-    
-  
-  
-}
+    println("O resultado √© nulo!")
+    }
