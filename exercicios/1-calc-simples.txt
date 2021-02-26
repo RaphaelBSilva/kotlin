@@ -1,0 +1,25 @@
+
+fun main() {
+    
+    var Val1:Float? = null //valor 1
+    var Val2:Float? = 3F  //valor 2
+    var Oper:String = "+" //operações aritimeticas simples: + , - ,* ou /
+   
+ 
+ if (Val1 != null && Val2 != null) {
+     when (Oper) {
+        "+" -> println(Val1.plus(Val2))
+        "-" -> println(Val1.minus(Val2))
+        "*" -> println(Val1.times(Val2))
+        "/" -> println(Val1.div(Val2))
+  else -> println("Operação não suportada")  
+   }
+ }
+    
+ else
+    println("O resultado é nulo!")
+    
+    
+  
+  
+}
